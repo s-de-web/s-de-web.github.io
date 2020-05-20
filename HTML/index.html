@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charaset="utf-8">
+        <meta name="description" content="code-begin-task1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Portfolio of Shikuma</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- fontawesome CSS -->
+        <script src="https://kit.fontawesome.com/140ac5563a.js" crossorigin="anonymous"></script>
+        <!-- JS declaration -->
+        <meta http-equiv="Content-Script-Type" content="text/javascript">
+        <!-- Swiper CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+        <link rel="stylesheet" href="../CSS/ress-master/ress.css">
+        <!-- self CSS -->
+        <link rel="stylesheet" href="../CSS/style.css">
+
+        <!-- ファビコン -->
+        <link rel="icon" href="../IMAGE/Component 1.svg">
+
+        <!-- スマホ用アイコン -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../IMAGE/Component 1.svg">
+    </head>
+    <body>
+        <!-- header -->
+        <header id="header" class="header">
+            <div class="h-title">
+                <h1 class="h-h1">
+                    <img src="../IMAGE/Component 1.svg" alt="bear-illust" class="h-icon">
+                    Portfolio of Shikuma
+                </h1>
+                <button class="h-nav-toggler collapse-switch pc-collapse">
+                    <i id="h-toggle-fa" class="fa fa-bars fa-property"></i>
+                </button>
+
+                <nav class="h-nav">
+                    <ul class="h-menu">
+                        <a href="#about">
+                            <li class="h-list">
+                                about
+                            </li>
+                        </a>
+                        <a href="#service">
+                            <li class="h-list">
+                                service
+                            </li>
+                        </a>
+                        <a href="#works">
+                            <li class="h-list">
+                                works
+                            </li>
+                        </a>
+                        <a href="#contact">
+                            <li class="h-list">
+                                contact
+                            </li>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+            <div class="jumbotron jumbotron-extend">
+                <div class="container-fluid">
+                    <h1 class="h-j-h1">Welcome</h1>
+                    <div class="h-j-pbox">
+                        <p class="h-j-p p-left">
+                            <span class="h-under">
+                                Let me introduce myself
+                            </span>
+                        </p>
+                        <p class="h-j-p p-right">-Shikuma</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main -->
+        <div class="container">
+            <main class="main">
+                <!-- About -->
+                <section class="m-section">
+                    <div id="about" class="about">
+                        <h2 class="m-h2">About</h2>
+                        <p class="m-p m-sect-sup">ポートフォリオ作成者の紹介</p>
+                        <div class="row">
+                            <div class="img-box col-md-4 col-12">
+                                <img src="../IMAGE/face.jpg" alt="face" class="m__a-img">
+                            </div>
+                            <div class="m__a-text-box col-md-8 col-12">
+                                <p class="m-p">シクマテルアキ (teruaki shikuma)</p>
+                                <p class="m-p">千葉県在住の大学生です。</p>
+                                <p class="m-p">
+                                    お客様のご要望に合うWebサイト、またサイトを訪問された方が利用しやすいWebサイトの作成を心がけています。<br>
+                                    お仕事のご依頼は以下のContact、またはTwitterのDMよりお気軽にご連絡下さい。
+                                </p>
+                                <p class="m-p">
+                                    <span class="m-p-emp">Skill</span>
+                                    <br>
+                                    HTML/CSS/JavaScript(jQuery)/Bootstrap
+                                </p>
+                                <a class="btn-twitter" href="https://twitter.com/WorksKuma" target="blank"><i class="fab fa-twitter"></i>アカウントはこちら</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Service -->
+                <section class="m-section">
+                    <div id="service" class="service">
+                        <h2 class="m-h2">Service</h2>
+                        <p class="m-p m-sect-sup">提供できる主なサービスになります（予定）</p>
+                        <div class="row">
+                            <div class="m__srv-boxes col-md-6">
+                                <div class="m__srv-content">
+                                    <div class="m__srv-box js-contents-open" data-target="contents1">
+                                        <div class="m__srv-title">
+                                            <h3 class="m-h3">コーディング</h3>
+                                            <i class="fas fa-laptop-code srv-fa-style"></i>
+                                        </div>
+                                        <span class="open pc-collapse">▼</span>
+                                    </div>
+                                    <div id="contents1" class="mobile-collapse">
+                                        <p class="m-p">
+                                            デザイン案もとに、Webブラウザ上で<span class="m-under">忠実に表示できるもの</span>をお作りいたします。
+                                        </p>
+                                        <p class="m-p">
+                                            デザインの部分から相談したいお客様の場合、Web制作の過程で得た知識をもとにデザイン作成をお手伝いいたします。
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="m__srv-boxes col-md-6">
+                                <div class="m__srv-content">
+                                    <div class="m__srv-box js-contents-open" data-target="contents2">
+                                        <div class="m__srv-title">
+                                            <h3 class="m-h3">レスポンシブ対応</h3>
+                                            <i class="fas fa-mobile-alt srv-fa-style"></i>
+                                            <i class="fas fa-tablet-alt srv-fa-style"></i>
+                                        </div>
+                                        <span class="open pc-collapse">▼</span>
+                                    </div>
+                                    <div id="contents2" class="mobile-collapse">
+                                        <p class="m-p">
+                                            <span class="m-under">閲覧するデバイスに応じて、見やすくかつ操作しやすいWebサイト</span>をお作りいたします。
+                                        </p>
+                                        <p class="m-p">
+                                            お客様のご要望に合わせて対応いたしますので、お申し付け下さい。
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- <div class="m__srv-boxes col-lg-4 col-md-6">
+                                <div class="m__srv-content">
+                                    <div class="m__srv-box js-contents-open" data-target="contents3">
+                                        <div class="m__srv-title">
+                                            <h3 class="m-h3">LP制作</h3>
+                                            <i class="fas fa-file-alt srv-fa-style"></i>
+                                        </div>
+                                        <span class="open pc-collapse">▼</span>
+                                    </div>
+                                    <p id="contents3" class="m-p mobile-collapse">
+
+                                    </p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </section>
+                <!-- works -->
+                <section class="m-section">
+                    <div id="works" class="works">
+                        <h2 class="m-h2">Works</h2>
+                        <p class="m-p m-sect-sup">これまでに作成したサイトの模写や架空サイトになります。</p>
+
+                        <!-- スライドショー -->
+                        <div class="swiper-container">
+                            <div id="my-works" class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide-1">
+                                    <h3 class="m-h3 m__w-swip-content m__w-swip-content-1">
+                                        模写サイト
+                                        <br>
+                                        (シンプルなサイト)
+                                    </h3>
+                                    <a href="../works/TASK1/HTML/index.html">
+                                        <div class="m-swip-box">
+                                            <img src="../IMAGE/task1.jpg" alt="" class="m-swip-img">
+                                            <p class="m-swip-on">
+                                                詳しく見る
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <p class="m-p m__w-swip-content m__w-swip-content-1">
+                                        ４ページ分のWebサイトです。
+                                        <br>
+                                        各構成要素の余白のとり方を注意して、シンプルながらまとまりのあるWebサイトを作成することを意識して作成しています
+                                    </p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-2">
+                                    <h3 class="m-h3 m__w-swip-content m__w-swip-content-2">
+                                        模写サイト
+                                        <br>
+                                        (架空コーポレートサイト)
+                                    </h3>
+                                    <a href="../works/TASK3/HTML/index.html">
+                                        <div class="m-swip-box">
+                                            <img src="../IMAGE/task2.jpg" alt="" class="m-swip-img">
+                                            <p class="m-swip-on">
+                                                詳しく見る
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <p class="m-p m__w-swip-content m__w-swip-content-2">
+                                        ６ページ分の架空コーポレートサイトです。
+                                        <br>
+                                        レスポンシブ対応を行っているため使用するデバイスに応じて見やすいようレイアウトが変更されます。
+                                        <br>
+                                        jQueryを用いたアニメーションも取り入れています。
+                                    </p>
+                                </div>
+                                <div class="swiper-slide swiper-slide-3">
+                                    <h3 class="m-h3 m__w-swip-content m__w-swip-content-3">
+                                        ポートフォリオサイト
+                                        <br>
+                                        (現在のサイト)
+                                    </h3>
+                                    <a href="#">
+                                        <div class="m-swip-box">
+                                            <img src="../IMAGE/portfolio.jpg" alt="" class="m-swip-img">
+                                            <p class="m-swip-on">
+                                                詳しく見る
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <p class="m-p m__w-swip-content m__w-swip-content-3">
+                                        自身のポートフォリオサイトです。
+                                        <br>
+                                        私ができること、web制作で心がけていることが伝わるようにシンプルに作成しました。
+                                        <br>
+                                        スマホなど小さな画面では1ページによりわかりやすく情報が見れるようにサービス内容やスライドショーの見え方を工夫しています。
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="swiper-pagination"></div>
+
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- contact -->
+                <section class="m-section">
+                    <div id="contact" class="contact">
+                        <h2 class="m-h2">Contact</h2>
+                        <p class="m-p m-sect-sup">ご連絡は以下のcontact form、またはツイッターのDMよりよろしくお願いいたします。</p>
+                        <!-- form-run -->
+                        <script src="https://sdk.form.run/js/v2/embed.js"></script>
+                        <div class="formrun-embed" data-formrun-form="@shikuma--1589425853" data-formrun-redirect="true"></div>
+                    </div>
+                    <p class="m-p m-sect-sup"><span class="break-emp">or</span></p>
+                    <div class="m__cont-twitter">
+                        <a class="btn-twitter m__cont-circle-btn" href="https://twitter.com/WorksKuma" target="blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </section>
+            </main>
+        </div>
+        <!-- arrowlink -->
+        <div class="is-flow"><a href="#header">↑</a></div>
+        <!-- footer -->
+        <footer class="footer">
+            <p class="f-p">
+                <img src="../IMAGE/Component 1.svg" alt="bear-illust" class="f-icon">
+                Portfolio of Shikuma
+            </p>
+            <a class="btn-twitter f-circle-btn" href="https://twitter.com/WorksKuma" target="blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </footer>
+
+        <!-- change header -->
+        <div class="change-title">
+            <h1 class="change-h1">
+                <img src="../IMAGE/Component 1.svg" alt="bear-illust" class="change-icon">
+                Portfolio of Shikuma
+            </h1>
+            <button class="change-nav-toggler collapse-switch">
+                <i id="change-toggle-fa" class="fa fa-bars fa-property"></i>
+            </button>
+            <nav class="change-nav">
+                <ul class="change-menu">
+                    <a href="#about">
+                        <li class="change-list">
+                            about
+                        </li>
+                    </a>
+                    <a href="#service">
+                        <li class="change-list">
+                            service
+                        </li>
+                    </a>
+                    <a href="#works">
+                        <li class="change-list">
+                            works
+                        </li>
+                    </a>
+                    <a href="#contact">
+                        <li class="change-list">
+                            contact
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- jQuery、Popper.js、Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <!-- self JS -->
+        <script type="text/javascript" src="../JS/hoge.js"></script>
+    </body>
+</html>
