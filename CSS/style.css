@@ -24,6 +24,9 @@ body{
     position: relative;
     background-color: rgba(252, 146, 59, 0.8);
 }
+.h-top-link{
+    color: #FFF;
+}
 .h-h1{
     font-size: 20px;
     font-weight: bold;
@@ -88,6 +91,10 @@ body{
     .h-title{
         height: 100px;
         width: 100%;
+    }
+    .h-top-link:hover{
+        color: #FFF;
+        text-decoration: none;
     }
     .h-h1{
         font-size: 40px;
@@ -238,6 +245,21 @@ body{
     background-color: #00acee;
     color: #FFF;
     padding: 8px;
+}
+.btn-twitter:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+.fa-twitter{
+    padding: 5px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+@media screen and (min-width: 768px){
+    .btn-twitter:hover .fa-twitter{
+        transform: scale(1.5);
+    }
 }
 
 .m__srv-content{
@@ -417,6 +439,10 @@ body{
     color: #FFF;
     background-color: rgba(252, 146, 59, 0.8);
 }
+.f-top-link{
+    color: #ffffff;
+    text-decoration: none;
+}
 .f-p{
     font-size: 12px;
     margin: 8px 5px;
@@ -428,18 +454,24 @@ body{
 }
 .f-circle-btn{
     display: inline-block;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     margin: 8px 5px;
     padding: 0;
     border-radius: 50%;
     text-align:center;
-    line-height: 25px;
+    line-height: 35px;
 }
 .f-circle-btn i{
     font-size: 15px;
 }
 
+@media screen and (min-width: 768px){
+    .f-top-link:hover{
+        color: #ffffff;
+        text-decoration: none;
+    }
+}
 /* 途中で現れるナビ */
 .change-title{
     height: 60px;
