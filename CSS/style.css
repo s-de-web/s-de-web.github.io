@@ -6,6 +6,13 @@ body{
     color: #333333;
     background-color: rgba(246, 179, 82, 0.8);
 }
+
+@media screen and (min-width: 768px){
+    body{
+        font-size: 16px;
+    }
+}
+
 /*header*/
 .h-title{
     height: 60px;
@@ -83,7 +90,7 @@ body{
         width: 100%;
     }
     .h-h1{
-        font-size: 30px;
+        font-size: 40px;
         transform: translateY(-75%);
     }
     .h-icon{
@@ -157,13 +164,22 @@ body{
     text-align: right;
 }
 
-/* .jumbotron-extend {
-    position: relative;
-    height: 80vh;
-    min-height: 300px;
-    background: url(../IMAGE/top_image.jpg) no-repeat center center;
-    background-size: cover;
-} */
+@media screen and (min-width: 768px){
+    .container-fluid{
+        padding: 30px;
+    }
+    .h-j-h1{
+        font-size: 4rem;
+        font-weight: 600;
+    }
+    .h-j-pbox{
+        margin-top: 30px;
+    }
+    .h-j-p{
+        font-size: 2rem;
+        margin: 0;
+    }
+}
 
 /*main*/
 .m-section{
@@ -172,6 +188,13 @@ body{
     border-radius: 20px;
     padding: 25px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 992px){
+    .m-section{
+        padding: 25px 40px 40px;
+        margin-bottom: 45px;
+    }
 }
 
 .m-h2{
@@ -186,6 +209,16 @@ body{
     text-align: center;
     margin-bottom: 20px;
 }
+
+@media screen and (min-width: 992px){
+    .m-h2{
+        font-size: 2.8rem;
+    }
+    .m-sect-sup{
+        margin-bottom: 30px;
+    }
+}
+
 .img-box{
     text-align: center;
     margin-bottom: 10px;
@@ -272,6 +305,9 @@ body{
         padding: 30px;
         height: 300px;
     }
+    .m-h3{
+        font-size: 1.8rem;
+    }
 }
 
 .swiper-container .swiper-slide{
@@ -304,6 +340,9 @@ body{
     color: white;
     font-weight: 600;
     background-color: rgba(0, 0, 0, 0.8);
+}
+.m__w-p{
+    text-align: left;
 }
 .swiper-button-prev, .swiper-button-next{
     color: white;
